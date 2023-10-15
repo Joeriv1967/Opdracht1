@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <link rel="icon" href="Favicon Joeri.png" sizes="16x16" type="image/png">
+    <Head>
+<link rel="stylesheet" href="Contact.css">
+<title>Contact</title>
+    </Head>
+    <Body>
+      <div>
+        <a href="Index.html">Link naar Homepage</a>
+        <h1>Contact</h1>
+      </div>
+        <p>- Indien je contact met me wenst op te nemen vul dan onderstaande gegevens in.</p>
+        <P>- In de bericht box zet je de reden waarom je contact wenst op te nemen.</P>
+        <div class="form">
+     <form action="https://tm-statweb.be/form.php" method="post"></form>
+        <label for="Voornaam">Voornaam*</label> 
+        <input required type="text" name="Voornaam" id="Voornaam" placeholder="Jef"> 
+      </div>
+        <div class="form">
+      <label for="Achternaam">Achternaam*</label>
+      <input required type="text" name="Achternaam" id="Achternaam" placeholder="Fransen">
+   </div>
+      <div class="form">
+        <label for="e-mail">e-mail*</label>
+        <input required type="email" id="email" name="email" placeholder="jef.fransen@email.com">
+      </div>
+        <div class="form">
+      <label for="Telefoonnummer">Telefoonnummer*</label>
+      <input type="tel" name="Telefoonnummer" id="Telefoonnummer" value="Optioneel">
+   </div>
+      <div class="form">
+        <label for="Bericht">Bericht*</label>
+        <textarea required name="Bericht" id="Bericht" cols="30" rows="10" placeholder="Wat,waarom, enz"></textarea>
+      </div>
+        <div class="form">
+        <label for="Verzenden">
+            <input type="submit" value="Verzenden" id="Verzenden" name="Verzenden">
+        </label>
+      </div>
+    </Body>
+</html>
